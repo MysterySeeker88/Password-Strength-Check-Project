@@ -1,35 +1,36 @@
 let message = document.querySelector('.message')
 let input = document.querySelector("input")
 let showHide = document.querySelector('#show')
+
 input.addEventListener('input', () => {
-    const passwordLength = input.value.length;
+    const passwordLength = input.value.length
 
     if (passwordLength === 0) {
-        message.innerHTML = '';
+        message.innerHTML = ''
     } else if (passwordLength < 4) {
-        setMessage('Too weak', 'red');
+        setMessage('Too weak', 'red')
     } else if (passwordLength <= 5) {
-        setMessage('Weak', 'orange');
+        setMessage('Weak', 'orange')
     } else if (passwordLength < 8) {
-        setMessage('Medium', 'blue');
+        setMessage('Medium', 'blue')
     } else {
-        setMessage('Strong', 'green');
+        setMessage('Strong', 'green')
     }
-});
+})
 
 function setMessage(text, color) {
-    message.innerHTML = text;
-    message.style.color = color;
+    message.innerHTML = text
+    message.style.color = color
 }
 
-let t = true;
+let t = true
 showHide.addEventListener('click', function () {
     if (t) {
-        input.type = 'text';
-        t = false;
+        input.type = 'text'
+        t = false
     } else {
-        input.type = 'password';
-        t = true;
+        input.type = 'password'
+        t = true
     }
-});
+})
 
