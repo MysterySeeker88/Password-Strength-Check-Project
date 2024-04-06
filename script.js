@@ -23,14 +23,6 @@ function setMessage(text, color) {
     message.style.color = color
 }
 
-let t = true
 showHide.addEventListener('click', function () {
-    if (t) {
-        input.type = 'text'
-        t = false
-    } else {
-        input.type = 'password'
-        t = true
-    }
-})
-
+    input.type = input.type === 'password' ? 'text' : 'password';
+});
