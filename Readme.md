@@ -1,2 +1,2 @@
 # Password Strength Check - Project
-The Beginner-Friendly Password Strength Check project is designed to create a simple tool for users to assess the strength of their passwords. It provides an easy-to-use interface where users can input their passwords and receive immediate feedback on their strength level. This project is tailored for individuals who may not be familiar with complex security concepts, offering a straightforward way to improve their online safety by generating stronger passwords.  
+The Beginner-Friendly Password Strength Check project is designed to create a simple tool for users to assess the strength of their passwords. It provides an easy-to-use interface where users can input their passwords and receive immediate feedback on their strength level.
